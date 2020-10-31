@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servletTutorial:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servletTutorial</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servletTutorial-1.0.0.war">
+      <element id="artifact" artifact-name="servletTutorial:war exploded" />
+    </root>
+  </artifact>
+</component>
